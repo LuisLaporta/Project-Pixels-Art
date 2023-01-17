@@ -1,0 +1,130 @@
+body {
+  background-image: url(Design\ sem\ nome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'A-15-BIT', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-bottom: 15px;
+}
+
+.color {
+  border: solid black 1px;
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+.configs {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pixel-board {
+  display: table;
+  margin: 20px;
+}
+
+.line {
+  display: table-row;
+}
+
+.pixel {
+  border: solid black 1px;
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  line-height: 0;
+}
+
+#color-palette {
+  display: inline-block;
+}
+
+#board-size {
+  margin-right: 5px;
+  width: 3vw;
+}
+
+#generate-board {
+  width: 7vw;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+#generate-board:hover {
+  background-color: green;
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 0 8px green, 0 0 35px green, 0 0 60px green;
+}
+
+#generate-board:active {
+  color: green;
+  background: #0000;
+}
+
+#clear-board {
+  padding: 3px;
+  margin: 5px;
+  margin-bottom: 15px;
+  width: 10vw;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+#clear-board:hover {
+  background-color: red;
+  color: black;
+  border-color: transparent;
+  box-shadow: 0 0 8px #fd0018, 0 0 35px #fd0018, 0 0 60px #fd0018;
+}
+
+#clear-board:active {
+  color:#fd0018; 
+  background: #000000;
+}
